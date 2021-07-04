@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  /* background-image: linear-gradient(#00ffff7a, #ffa60081, #c7e90762); */
+}
+h1 {
+  font-size: 50px;
+}
+nav {
+  background: tomato;
+  padding: 20px 40px;
+  text-align: center;
+}
+section {
+  padding: 20px 50px;
+  margin-bottom: 50px;
+}
+.nav-item {
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 7px 18px;
+  color: #ffffff;
+  margin-right: 10px;
+  transition: all 100ms linear;
+  -webkit-transition: all 100ms linear;
+  -moz-transition: all 100ms linear;
+  -ms-transition: all 100ms linear;
+  -o-transition: all 100ms linear;
+}
+.nav-item:hover {
+  border-left: 4px solid orange;
+  border-right: 4px solid orange;
+  /* border-top: 5px solid orange; */
+  box-sizing: border-box;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+h3 {
+  font-size: 30px;
+}
+p {
+  color: #333;
+  line-height: 24px;
+  letter-spacing: 0.06rem;
+  margin-bottom: 40px;
+  font-size: 17px;
+}
+.btn {
+  padding: 12px 23px;
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: 700;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.btn:hover {
+  background-image: linear-gradient(to right, salmon, orange);
+  transition: 0.3s linear;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -ms-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+}
+.btn-orange {
+  background-image: linear-gradient(orange, salmon);
+  color: #fff;
+}
+span {
+  color: orange;
+}
+.text-orange {
+  color: orange;
+}
+#hero {
+  display: flex;
+}
+.headings {
+  width: 50%;
+}
+.imgs {
+  width: 40%;
+}
+.imgs > img {
+  width: 100%;
+}
+
+#about {
+  display: flex;
+}
+.common {
+  width: 40%;
+  margin-left: 3%;
+  padding: 10px 20px;
+  margin-right: 3%;
+  background: #fff;
+}
+.right-side {
+  box-shadow: 1rem 1rem 0 0 orange, -1rem -1rem 0 0 tomato;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.left-side {
+  box-shadow: -1rem -1rem 0 0 orange, 1rem 1rem 0 0 tomato;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.h-effect {
+  box-shadow: -0rem 0.3rem 1px 0 orange;
+  border-radius: 5px;
+  margin: 6px auto;
+  width: max-content;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.text-justify {
+  text-align: center;
+  display: flex;
+  padding: 10px 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: tomato;
+  padding: 20px 10px;
+}
+
+footer > p {
+  margin: 0;
+  color: #fff;
+  font-weight: 700;
+}
+footer > p > q {
+  color: #ffe002 !important;
+}
+footer > div.icons > a > i {
+  border: 1px solid;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 10px;
+  color: #fff;
+}
+small {
+  font-size: 18px;
+}
+q > i {
+  color: red;
+  font-size: 20px;
+}
+footer > div.icons > a {
+  text-decoration: none;
+}
+footer > div.icons > a > i:first-child {
+  background-color: #221f1f;
+}
+@media (max-width: 776px) {
+  nav > a {
+    display: block;
+  }
+  section {
+    padding: 10px 30px;
+  }
+  #hero {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 30px;
+    margin: 20px 0 20px 0;
+  }
+  h3 {
+    font-size: 23px;
+  }
+  .headings {
+    width: 100%;
+    margin: 0 0 80px 0;
+    order: 2;
+  }
+  .imgs {
+    width: 100%;
+    margin: 30px 0 20px 0;
+    order: 1;
+  }
+  #about {
+    flex-direction: column;
+  }
+  .common {
+    width: 70% !important;
+    margin: 0 auto;
+    margin: 0 auto 80px auto;
+  }
+  p.color-white {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  footer {
+    flex-direction: column;
+  }
+}
