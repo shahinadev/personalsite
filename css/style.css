@@ -20,7 +20,7 @@ nav {
 }
 section {
   padding: 20px 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .nav-item {
   font-size: 18px;
@@ -317,4 +317,5 @@ footer > div.icons > a > i:first-child {
   .left-side{
     box-shadow:  -0.5rem -0.5rem 0 0 orange, 0.5rem 0.5rem 0 0 tomato;;
   }
+
 }
