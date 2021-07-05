@@ -174,7 +174,6 @@ input , select , textarea{
 }
 input:focus , select:focus , textarea:focus{
  outline:none;
- border: 2px solid;
  border-image: linear-gradient(to right,tomato,orange);
  border-image-slice: 1;
  border-radius: 5px;
