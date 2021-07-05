@@ -140,6 +140,7 @@ span {
 }
 .conatctWrapper{
   display: flex;
+  margin-top: 70px;
 }
 .contactForm{
   width: 40%;
