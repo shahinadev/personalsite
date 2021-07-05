@@ -1,12 +1,11 @@
-
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-q{
-  font-family:Arial, Helvetica, sans-serif;
+q {
+  font-family: Arial, Helvetica, sans-serif;
   text-transform: capitalize;
 }
 
@@ -92,6 +91,9 @@ span {
 }
 .imgs {
   width: 40%;
+  margin-left: 100px;
+  margin-top: 40px;
+  padding: 20px 0 0 0;
 }
 .imgs > img {
   width: 100%;
@@ -138,18 +140,18 @@ span {
   display: flex;
   padding: 10px 20px;
 }
-.conatctWrapper{
+.conatctWrapper {
   display: flex;
   margin-top: 70px;
 }
-.contactForm{
+.contactForm {
   width: 40%;
   padding: 20px 10px;
 }
-.googleMap{
+.googleMap {
   width: 50%;
 }
-.googleMap > .map > iframe{
+.googleMap > .map > iframe {
   width: 100%;
   margin-top: 35px;
 }
@@ -159,52 +161,55 @@ span {
   padding: 5px 5px;
   box-sizing: border-box;
 }
-.inputWrapper > input,select{
+.inputWrapper > input,
+select {
   font-size: 18px;
   padding: 9px 6px;
- 
 }
-input , select , textarea{
+input,
+select,
+textarea {
   border: 2px solid orange;
-  border-radius: 5px!important;
-  -webkit-border-radius: 5px!important;
-  -moz-border-radius: 5px!important;
-  -ms-border-radius: 5px!important;
-  -o-border-radius: 5px!important;
+  border-radius: 5px !important;
+  -webkit-border-radius: 5px !important;
+  -moz-border-radius: 5px !important;
+  -ms-border-radius: 5px !important;
+  -o-border-radius: 5px !important;
 }
-input:focus , select:focus , textarea:focus{
- outline:none;
- border-image: linear-gradient(to right,tomato,orange);
- border-image-slice: 1;
- border-radius: 5px;
- -webkit-border-radius: 5px;
- -moz-border-radius: 5px;
- -ms-border-radius: 5px;
- -o-border-radius: 5px;
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+  border-image: linear-gradient(to right, tomato, orange);
+  border-image-slice: 1;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
-.inputWrapper > label{
+.inputWrapper > label {
   padding: 5px 0;
-
 }
-input[type="submit"]{
+input[type="submit"] {
   padding: 10px 7px;
-  background-image:linear-gradient(to right,orange,tomato);
+  background-image: linear-gradient(to right, orange, tomato);
   color: #fff;
   margin-top: 10px;
   font-weight: 700;
   letter-spacing: 0.03rem;
 }
-input[type="submit"]:hover{
-  background-image:linear-gradient(tomato,orange);
+input[type="submit"]:hover {
+  background-image: linear-gradient(tomato, orange);
   cursor: pointer;
 }
-.inputWrapper > textarea{
+.inputWrapper > textarea {
   padding: 10px 10px;
   font-size: 18px;
   resize: none;
   height: 90px;
 }
-.common-css{
+.common-css {
   margin-right: 5%;
   margin-left: 5%;
 }
@@ -272,7 +277,7 @@ footer > div.icons > a > i:first-child {
     margin: 0 0 80px 0;
     order: 2;
   }
-  .conatctWrapper{
+  .conatctWrapper {
     flex-direction: column;
   }
   .imgs {
@@ -292,30 +297,29 @@ footer > div.icons > a > i:first-child {
     font-size: 18px;
     margin-bottom: 10px;
     font-weight: 600;
-    text-align:center;
+    text-align: center;
   }
   footer {
     flex-direction: column;
   }
-  .contactForm{
+  .contactForm {
     width: 80%;
     padding: 20px 5px;
   }
-  .googleMap{
+  .googleMap {
     width: 90%;
   }
-  .common-css{
+  .common-css {
     margin: 0 auto;
   }
   .common-css > h3.h-effect {
     margin-top: 19px;
     font-size: 20px;
   }
-  .right-side{
+  .right-side {
     box-shadow: 0.5rem 0.5rem 0 0 orange, -0.5rem -0.5rem 0 0 tomato;
   }
-  .left-side{
-    box-shadow:  -0.5rem -0.5rem 0 0 orange, 0.5rem 0.5rem 0 0 tomato;;
+  .left-side {
+    box-shadow: -0.5rem -0.5rem 0 0 orange, 0.5rem 0.5rem 0 0 tomato;
   }
-
 }
